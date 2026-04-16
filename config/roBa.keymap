@@ -66,10 +66,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R                        &kp T                                           &kp Y        &kp U  &lt 6 I    &kp O                &kp P
-&kp A             &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))         &kp ESC      &kp H        &kp J  &kp K      &kp L                &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                        &kp B        &kp LC(UP_ARROW)      &kp B        &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp BACKSPACE
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt 3 LANG2           &lt 4 LANG1  &lt 5 ENTER                                         &kp DEL
+&kp Q             &kp W         &kp E             &kp R      &kp T                                           &kp Y        &kp U  &lt 6 I    &kp O                &kp P
+&kp A             &kp S         &kp D             &kp F      &kp G        &kp LS(LG(S))         &kp ESC      &kp H        &kp J  &kp K      &kp L                &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V      &kp B        &kp LC(UP_ARROW)      &kp B        &kp N        &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp BACKSPACE
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 TAB  &lt 2 SPACE  &lt 3 LANG2           &lt 4 LANG1  &lt 5 ENTER                                         &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&to 0  &to 0  &to 0  &to 0  &to 0                          &to 0   &to 0     &to 0     &to 0     &to 0
-&to 0  &to 0  &to 0  &to 0  &kp LG(C)  &to 0      &to 0   &to 0   &mkp MB1  &mkp MB3  &mkp MB2  &to 0
-&to 0  &to 0  &to 0  &to 0  &kp LG(V)  &to 0      &to 0   &to 0   &mkp MB4  &to 0     &mkp MB5  &to 0
-&to 0  &to 0  &to 0  &to 0  &to 0      &to 0      &to 0   &to 0                                  &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0                        &to 0  &to 0     &to 0     &to 0     &to 0
+&to 0  &to 0  &to 0  &to 0  &kp LG(C)  &to 0      &to 0  &to 0  &mkp MB1  &mkp MB3  &mkp MB2  &to 0
+&to 0  &to 0  &to 0  &to 0  &kp LG(V)  &to 0      &to 0  &to 0  &mkp MB4  &to 0     &mkp MB5  &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0      &to 0      &to 0  &to 0                                &to 0
             >;
         };
     };

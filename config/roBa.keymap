@@ -77,19 +77,19 @@
 
         MATH {
             bindings = <
-&trans  &kp BACKSLASH     &kp DOLLAR            &kp HASH               &trans                         &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTRK
-&trans  &kp EXCLAMATION   &kp AMPERSAND         &kp PIPE               &kp EQUAL  &trans      &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
-&trans  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans      &trans  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT
-&trans  &trans            &trans                &trans                 &trans     &trans      &trans  &trans                                                  &trans
+&trans  &kp BACKSLASH     &kp DOLLAR            &kp HASH               &trans                                       &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTRK
+&trans  &kp EXCLAMATION   &kp AMPERSAND         &kp PIPE               &kp EQUAL      &trans                &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
+&trans  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN      &trans  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT
+&trans  &trans            &trans                &trans                 &trans         &trans                &trans  &trans                                                  &trans
             >;
         };
 
         SYMBOLS {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &trans                      &kp EXCLAMATION  &kp LBKT              &kp RBKT               &kp AT    &kp J
-&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &trans  &trans      &trans  &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
-&trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans  &trans      &trans  &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
-&trans  &trans        &trans         &trans         &trans  &trans      &trans  &trans                                                                  &trans
+&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &trans                             &kp EXCLAMATION   &kp LBKT              &kp RBKT               &kp AT    &kp J
+&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &trans  &trans      &trans         &kp QUESTION      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
+&trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans  &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
+&trans  &trans        &trans         &trans         &trans  &trans      &trans         &trans                                                                   &trans
             >;
         };
 

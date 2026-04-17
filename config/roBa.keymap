@@ -86,10 +86,10 @@
 
         SYMBOLS {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &trans                      &kp EXCLAMATION  &kp LBKT              &kp RBKT               &kp AT    &kp J
-&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &trans  &trans      &trans  &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
-&trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans  &trans      &trans  &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
-&trans  &trans        &trans         &trans         &trans  &trans      &trans  &trans                                                                  &trans
+&trans  &kp EXCLAMATION  &kp LS(N2)       &kp HASH       &trans                      &kp EXCLAMATION  &kp RBKT      &kp BSLH      &kp LBKT  &kp J
+&trans  &kp DOLLAR       &kp PERCENT      &kp AMPERSAND  &trans  &trans      &trans  &kp QUESTION     &kp LS(N8)    &kp LS(N9)    &kp SEMI  &kp SQT
+&trans  &kp LS(N7)       &kp EQUAL        &kp LS(INT_YEN) &trans  &trans     &trans  &trans           &kp LS(RBKT)  &kp LS(BSLH)  &kp FSLH  &kp LS(INT_RO)
+&trans  &trans           &trans           &trans         &trans  &trans      &trans  &trans                                                  &trans
             >;
         };
 

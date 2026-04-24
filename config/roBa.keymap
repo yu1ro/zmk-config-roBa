@@ -68,7 +68,7 @@
             bindings = <
 &kp Q             &kp W         &kp E             &kp R        &kp T                                                   &kp Y            &kp U  &lt 6 I    &kp O                &kp P
 &mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp LS(LG(LC(NUMBER_4)))      &kp ESC      &kp H            &kp J  &kp K      &kp L                &kp QUESTION
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B        &kp LC(UP_ARROW)              &kp B        &kp N            &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp C        &kp V        &kp LC(UP_ARROW)              &kp B        &kp N            &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp ENTER
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG2  &lt 2 SPACE  &lt 3 MINUS                   &lt 4 LANG1  &lt 5 BACKSPACE                                         &kp DEL
             >;
 
@@ -86,10 +86,10 @@
 
         SYMBOLS {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &trans                             &kp EXCLAMATION   &kp LBKT              &kp RBKT               &kp AT    &kp J
-&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &trans  &trans      &trans         &kp QUESTION      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
-&trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans  &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
-&trans  &trans        &trans         &trans         &trans  &trans      &trans         &trans                                                                   &trans
+&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &kt TILDE                             &kp EXCLAMATION   &kp LBKT              &kp RBKT               &kp AT    &kp J
+&trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &trans     &trans      &trans         &kp QUESTION      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
+&trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans     &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
+&trans  &trans        &trans         &trans         &trans     &trans      &trans         &trans                                                                   &trans
             >;
         };
 

@@ -9,6 +9,9 @@ on:
   #     - "keymap_drawer.config.yaml"
   #     - "config/roBa.dtsi"
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2

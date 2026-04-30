@@ -85,7 +85,7 @@
 
         SYMBOLS {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &kt TILDE                             &kp EXCLAMATION   &kp LBKT              &kp RBKT               &kp AT    &kp J
+&trans  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &kp TILDE                             &kp EXCLAMATION   &kp LBKT              &kp RBKT               &kp AT    &kp J
 &trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &kp GRAVE  &trans      &trans         &kp QUESTION      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp COLON
 &trans  &kp LS(SQT)   &kp CARET      &kp LS(PIPE)   &trans     &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH  &kp UNDER
 &trans  &trans        &trans         &trans         &trans     &trans      &trans         &trans                                                                   &trans

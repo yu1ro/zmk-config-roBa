@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R        &kp T                                                   &kp Y            &kp U  &lt 6 I    &kp O                &kp P
-&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp LS(LG(LC(NUMBER_4)))      &kp ESC      &kp H            &kp J  &kp K      &kp L                &kp QUESTION
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp C        &kp V        &kp LC(UP_ARROW)              &kp B        &kp N            &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp ENTER
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG2  &lt 2 SPACE  &lt 3 MINUS                   &lt 4 LANG1  &lt 5 BACKSPACE                                         &kp DEL
+&lt 7 Q           &kp W         &kp E             &kp R        &kp T                                                   &kp Y          &kp U  &lt 6 I    &kp O                &lt 7 P
+&mt LCTRL A       &kp S         &kp D             &kp F        &kp G        &kp LS(LG(LC(NUMBER_4)))      &kp ESC      &kp H          &kp J  &kp K      &kp L                &kp QUESTION
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp C        &kp V        &kp LC(UP_ARROW)              &lt 5 B      &kp N          &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &kp ENTER
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG2  &lt 2 SPACE  &lt 3 MINUS                   &lt 4 LANG1  &kp BACKSPACE                                         &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -115,8 +115,8 @@
         NAVIGATION {
             bindings = <
 &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans                                     &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)  &kp LC(NUMBER_6)  &trans            &trans      &trans       &kp LG(LA(LC(B)))  &trans        &trans        &trans        &kp LC(F14)
-&trans  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)  &kp LC(NUMBER_9)  &kp LC(NUMBER_0)  &trans      &bootloader  &trans             &trans        &trans        &trans        &bt BT_CLR
+&trans  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)  &kp LC(NUMBER_6)  &trans            &trans      &bootloader  &kp LG(LA(LC(B)))  &trans        &trans        &trans        &kp LC(F14)
+&trans  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)  &kp LC(NUMBER_9)  &kp LC(NUMBER_0)  &trans      &trans       &trans             &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans            &trans            &trans            &trans            &trans      &trans       &trans                                                       &bt BT_CLR_ALL
             >;
         };

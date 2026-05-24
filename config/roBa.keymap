@@ -38,6 +38,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 11>;
         };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {

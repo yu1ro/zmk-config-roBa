@@ -43,6 +43,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        leftB {
+            bindings = <&kp B>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {

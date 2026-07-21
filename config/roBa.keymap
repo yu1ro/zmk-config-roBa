@@ -76,9 +76,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp I &kp N &kp RET>,
+                <&kp I &kp N>,
                 <&macro_wait_time 1000>,
-                <&kp UP_ARROW &kp R>,
+                <&kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
                 <&kp O &kp H &kp A &kp RET>;
 

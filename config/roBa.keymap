@@ -77,7 +77,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp I &kp N>,
-                <&macro_wait_time 50>,
+                <&macro_wait_time 200>,
                 <&kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
                 <&kp O &kp H &kp A &kp RET>;
@@ -90,7 +90,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp O &kp U &kp T>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 200>,
                 <&kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
                 <&kp O &kp T &kp S &kp U &kp K &kp A &kp R &kp E &kp RET>;
@@ -103,7 +103,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp COLON &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I>,
-                <&macro_wait_time 300>,
+                <&macro_wait_time 200>,
                 <&kp RET &kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
                 <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I &kp RET>;

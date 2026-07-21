@@ -43,6 +43,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        leftB {
+            bindings = <&kp B>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
@@ -51,6 +56,31 @@
             #binding-cells = <1>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
+        };
+
+        camp_mail: kintai_iri {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp U &kp I &kp C &kp H &kp I &kp R &kp O &kp DOT &kp K &kp A &kp W &kp A &kp N &kp O &kp AT &kp C &kp A &kp M &kp P &kp MINUS &kp F &kp I &kp R &kp E &kp DOT &kp J &kp P>;
+            label = "KINTAI_IRI";
+        };
+
+        private_mail: private_mail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp R &kp E &kp S &kp E &kp N &kp E &kp R &kp DOT &kp Y &kp U &kp N1 &kp R &kp O &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "PRIVATE_MAIL";
+        };
+
+        kintai_in: kintai_in {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp I &kp N &kp RET>,
+                <&macro_wait_time 1>,
+                <&kp R &kp O &kp H &kp A &kp Y &kp O &kp U &kp K &kp I &kp R &kp O &kp K &kp U &kp RET>;
+
+            label = "KINTAI_IN";
         };
     };
 
@@ -81,7 +111,7 @@
 
         MATH {
             bindings = <
-&trans  &kp BACKSLASH     &kp DOLLAR            &kp HASH               &trans                                       &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK
+&trans  &kp BACKSLASH     &kp DOLLAR            &kp HASH               &kp GRAVE                                    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTRK
 &trans  &kp EXCLAMATION   &kp AMPERSAND         &kp PIPE               &kp EQUAL      &trans                &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
 &trans  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT
 &trans  &trans            &trans                &trans                 &trans         &trans                &trans  &trans                                                  &trans
@@ -110,10 +140,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans   &trans   &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &kp F14  &kp F15  &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans   &trans   &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
-&trans  &trans   &trans   &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &kintai_in  &trans         &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &kp F14     &kp F15        &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &camp_mail  &private_mail  &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans  &trans      &trans         &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 

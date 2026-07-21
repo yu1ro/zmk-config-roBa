@@ -98,20 +98,7 @@
             label = "KINTAI_OUT";
         };
 
-        kyuukeimodori: kintai_iri {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp COLON &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I>,
-                <&macro_wait_time 1000>,
-                <&kp RET &kp UP_ARROW &kp R>,
-                <&macro_wait_time 0>,
-                <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp RET>;
-
-            label = "KINTAI_IRI";
-        };
-
-        kyuukeiiri: kintai_modori {
+        iri_kiroku: iri_kiroku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -121,7 +108,20 @@
                 <&macro_wait_time 0>,
                 <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I &kp RET>;
 
-            label = "KINTAI_MODORI";
+            label = "IRI_KIROKU";
+        };
+
+        modori_kiroku: modori_kiroku {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp COLON &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I>,
+                <&macro_wait_time 1000>,
+                <&kp RET &kp UP_ARROW &kp R>,
+                <&macro_wait_time 0>,
+                <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp RET>;
+
+            label = "MODORI_KIROKU";
         };
     };
 
@@ -181,10 +181,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kintai_in  &trans         &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &kp F14     &kp F15        &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &camp_mail  &private_mail  &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
-&trans  &trans      &trans         &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &kintai_in   &kintai_out     &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &iri_kiroku  &modori_kiroku  &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &camp_mail   &private_mail   &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans  &trans       &trans          &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 

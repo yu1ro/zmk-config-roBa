@@ -48,6 +48,11 @@
             bindings = <&kp B>;
             key-positions = <27 26>;
         };
+
+        chikyu {
+            bindings = <&kp GLOBE>;
+            key-positions = <39 40>;
+        };
     };
 
     macros {

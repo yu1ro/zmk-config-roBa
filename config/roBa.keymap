@@ -107,11 +107,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANG1 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I>,
+                <&kp LANG1 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I &kp SPACE>,
                 <&macro_wait_time 350>,
                 <&kp RET &kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
-                <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I &kp RET>;
+                <&kp LANG2 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp I &kp R &kp I &kp RET>;
 
             label = "IRI_KIROKU";
         };
@@ -120,11 +120,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LANG1 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I>,
+                <&kp LANG1 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp SPACE>,
                 <&macro_wait_time 350>,
                 <&kp RET &kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
-                <&kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp RET>;
+                <&kp LANG2 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp RET>;
 
             label = "MODORI_KIROKU";
         };

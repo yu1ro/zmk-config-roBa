@@ -124,7 +124,7 @@
                 <&macro_wait_time 350>,
                 <&kp RET &kp RET &kp UP_ARROW &kp R>,
                 <&macro_wait_time 0>,
-                <&kp LANG2 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp RET>;
+                <&kp LANG2 &kp K &kp Y &kp U &kp U &kp K &kp E &kp I &kp M &kp O &kp D &kp O &kp R &kp I &kp ENTER>;
 
             label = "MODORI_KIROKU";
         };
